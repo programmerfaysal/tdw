@@ -1,0 +1,313 @@
+a{
+    text-decoration: none;
+}
+
+/******home Search Css Start ******/
+.home-search{
+    background-image: url("../image/h-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.home-search h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: verdana;
+    font-weight: 700;
+}
+.home-search p {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.home-search .home-search-option{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+}
+.home-search .home-search-option .form-control {
+    font-family: system-ui;
+    color: #808285;
+    font-size: 15px;
+    font-weight: 500;
+    background: #fff;
+    border: 0;
+    padding: 15px;
+    border-radius: 0;
+}
+.home-search .home-search-option .input-group-text {
+    font-family: system-ui;
+    color: #808285;
+    font-size: 15px;
+    font-weight: 500;
+    background: #fff;
+    border: 0;
+    padding: 15px;
+    border-radius: 0;
+}
+.home-search .home-search-option .btn {
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    padding: 15px;
+    border-radius: 0;
+    background: linear-gradient(to bottom,#f4364f,#dc2039);
+    color: #fff;
+    width: 100%;
+}
+.home-search .home-search-option .form-control:focus{
+    box-shadow: none;
+}
+.home-search .home-search-option .hom-pack {
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
+    padding-bottom: 5px;
+}
+.home-search .home-search-option .package-option {
+    width: 90px;
+    height: 90px;
+    padding: 18px 2px 10px 2px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #8e8e8e;
+    margin: 10px;
+    text-decoration: none;
+    transition: All 0.3s;
+}
+.home-search .home-search-option .package-option:hover {
+    background: #f4364f;
+    background: linear-gradient(to bottom,#f4364f,#dc2039);
+    border: 1px solid #d41e36;
+}
+.home-search .home-search-option .package-option .form-control {
+    font-size: 18px !important;
+    height: 50px !important;
+    border-radius: 0px !important;
+}
+.home-search .home-search-option .package-option img {
+    padding-bottom: 5px;
+    width: 36px;
+}
+.home-search .home-search-option .package-option P {
+    font-size: 12px;
+    font-family: verdana;
+}
+/******home Search Css End ******/
+
+
+/******home Tab Css Start ******/
+.tab {
+    
+}
+.tab .tablinks {
+    background: #f4f4f4;
+    padding: 17px 15px;
+    color: #808285;
+    font-size: 15px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    transition: all .3s;
+}
+.tab .tablinks:hover {
+    color: #d41e36;
+}
+.tab .active {
+    background: #fff;
+    color: #d41e36;
+    margin-top: -10px;
+}
+.tabcontent{
+    margin-top: 60px;
+}
+.tabcontent .grid-img {
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.tabcontent .grid-img img {
+    width: 100%;
+    transition: all 0.3s;
+}
+.tabcontent .grid-img .grid-text {
+    position: absolute;
+    top: 0;
+    background: #0000006a;
+    color: #fff;
+    padding: 8%;
+    opacity: 0;
+    transition: all 0.3s;
+    height: 100%;
+}
+.tabcontent .grid-img .grid-text h1 {
+    font-size: 40px;
+    font-family: verdana;
+    font-weight: 900;
+}
+.tabcontent .grid-img .grid-text h2 {
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: 900;
+}
+.tabcontent .grid-img .grid-text p {
+    font-size: 18px;
+    line-height: 20px;
+}
+.tabcontent .grid-img:hover img {
+    scale: 1.1;
+}
+.tabcontent .grid-img:hover .grid-text {
+    opacity: 1;
+}
+
+.tabcontent .info-ab{
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px -6px #000;
+    color: #000;
+}
+.tabcontent .info-ab h1{}
+.tabcontent .info-ab p{}
+
+.tab-ser{
+    padding: 30px;
+    background: #f4f4f4;
+}
+.tab-ser h2 {
+    font-size: 18px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+.tab-ser .form-control:focus {box-shadow: none !important;}
+.tab-ser .form-control {
+    font-family: system-ui;
+    color: #808285;
+    font-size: 12px;
+    font-weight: 500;
+    background: #fff;
+    border: 0;
+    padding: 18px;
+}
+.tab-ser .input-group-text{
+    font-family: system-ui;
+    color: #808285;
+    font-size: 12px;
+    font-weight: 500;
+    background: #fff;
+    border: 0;
+    padding: 18px;
+}
+.tab-ser .book-btn {
+    width: 100%;
+    background: #d41e36;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 0;
+    border: 3px solid #d41e36;
+    transition: all .3s;
+}
+.tab-ser .book-btn:hover {
+    background: #fff;
+    color: #d41e36;
+    border: 3px solid #d41e36;
+}
+
+/******home Tab Css End ******/
+
+.tour-plan {
+    padding: 15px 50px;
+}
+.tour-plan .content {
+    border-left: 1px solid #ddd;
+    padding: 15px 0px 15px 50px;
+    position: relative;
+}
+.tour-plan .content .number{
+    position: absolute;
+    top: 0;
+    left: -25px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #d41e36;
+    border-radius: 50%;
+    margin-right: 38px;
+    text-align: center;
+}
+
+.tour-plan .content h2 {
+    font-size: 20px;
+}
+.tour-plan .content p {
+    font-size: 15px;
+    color: #545454;
+}
+.tour-plan .content p i{}
+
+
+
+.tab-location{}
+.tab-location h1 {
+    font-size: 30px;
+    color: #2e2e2e;
+}
+.tab-location h2 {
+    font-size: 25px;
+    color: #2e2e2e;
+}
+.tab-location h3 {
+    font-size: 18px;
+    color: #808285;
+    font-weight: 400;
+}
+.tab-location p {
+    font-size: 15px;
+    color: #808285;
+}
+.tab-location iframe {
+    margin: 40px 0px;
+}
+
+
+
+.gallery{
+    padding: 10px;
+}
+.gallery a{}
+.gallery a img{
+    width: 100%;
+}
+
+
+/* Media css style */
+@media (max-width:414px){
+    .tab {
+        padding: 25px;
+    }
+    .tab .tablinks {
+        border-bottom: 1px solid #ddd;
+    }
+}
+@media (max-width:896px){
+    .tablet-width{width: 100%;}
+}
+
+/* Tablet */
+@media (min-width:321px) and (max-width:768px){
+    
+}
+
+/* Desktop */
+@media (min-width:769px){
+
+}
