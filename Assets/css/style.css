@@ -289,11 +289,90 @@ a{
 }
 
 
+
+/* Tab Review Style */
+.total-review {
+    background: #ebebeb;
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.total-review h1 {
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: 700;
+    color: #e42740;
+}
+.total-review p {
+    font-size: 17px;
+    color: #585858;
+}
+
+
+
+.progress, .progress-stacked {
+    height: 30px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    font-size: 15px;
+    padding: 10px;
+    background: #e42740;
+}
+
+
+.review-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+.review-img img{
+    width: 100%;
+    height: 100%;
+}
+.review-text {
+    padding-bottom: 35px;
+}
+.review-text h2 {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 600;
+}
+.review-text p {
+    font-size: 15px;
+    color: #3a3a3a;
+}
+.review-text .review-star{}
+.review-text .review-star h2 {
+    font-size: 15px;
+    color: #2c2c2c;
+    font-weight: 700;
+}
+.review-text .review-star h2 i {
+    color: #e42740;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 /* Media css style */
 @media (max-width:414px){
-    .tab {
-        padding: 25px;
+    .tab-margin{
+        padding: 50px;
     }
+    /* .tab {
+        padding: 25px;
+    } */
     .tab .tablinks {
         border-bottom: 1px solid #ddd;
     }
