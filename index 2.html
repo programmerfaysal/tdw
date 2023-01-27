@@ -14,9 +14,6 @@
     <!-- Lightbox Css -->
     <link rel="stylesheet" href="Assets/css/lightbox.min.css" />
 
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.css" integrity="sha512-6zmOr9KRwumHEceiFSVXOijelvNuvW8I8gtDsQmXZ0c3E73ihgWGnHXY5PFBEQiCSed1B9i8RZNDIYaAzF+ERA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- Wow js css -->
     <link rel="stylesheet" href="Assets/css/animate.css"/>
 
@@ -39,7 +36,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img style="height:60px" src="Assets/image/logo.png" alt=""></a>
+                <a class="navbar-brand" href=""><img style="height:60px" src="Assets/image/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,10 +46,10 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#domestic">Domestic</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Domestic</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#internation">International</a>
+                            <a class="nav-link" aria-current="page" href="index.html">International</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav d-flex">
@@ -70,7 +67,7 @@
 
     <!-- Home Search Bar Section Start -->
     <section>
-        <div class="home-search fadeInUp" id="home-s">
+        <div class="home-search">
             <div class="container">
                 <div class="row">
                     <div class="home-search-option">
@@ -91,411 +88,25 @@
                             </div>
                         </form>
                         <div class="row hom-pack ">
-                            <a id="defaultfOpen" onclick="openForm(event, 'flight'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/2.png" alt="">
                                 <p>FLIGHT</p>
                             </a>
-                            <a id="defaultfOpen" onclick="openForm(event, 'hotel'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/4.png" alt="">
                                 <p>HOTEL</p>
                             </a>
-                            <a id="defaultfOpen" onclick="openForm(event, 'tour'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/1.png" alt="">
                                 <p>TOUR</p>
                             </a>
-                            <a id="defaultfOpen" onclick="openForm(event, 'car'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/3.png" alt="">
                                 <p>CAR RENTALS</p>
                             </a>
                             
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="book-search fadeInUp" id="book-s" style="display: none;">
-            <div class="container">
-                <div class="row book-option wow fadeInUp">
-                    <div class="col-md-7 col-sm-12">
-                        <div class="b-tab wow fadeInUp" id="flight">
-                            <h4>WORLD'S LEADING TOUR AND TRAVELS TEMPLATE</h4>
-                            <h1>Flight Booking to your travel!</h1>
-                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
-                        </div>
-                        <div class="b-tab wow fadeInUp" id="hotel">
-                            <h4>WORLD'S LEADING TOUR AND TRAVELS TEMPLATE</h4>
-                            <h1>Hotel booking now!</h1>
-                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
-                        </div>
-                        <div class="b-tab wow fadeInUp" id="tour">
-                            <h4>WORLD'S LEADING TOUR AND TRAVELS TEMPLATE</h4>
-                            <h1>Tour Package booking now!</h1>
-                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
-                        </div>
-                        <div class="b-tab wow fadeInUp" id="car">
-                            <h4>WORLD'S LEADING TOUR AND TRAVELS TEMPLATE</h4>
-                            <h1>Car Rentals easy now!</h1>
-                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
-                        </div>
-                        <div class="row hom-pack wow fadeInUp">
-                            <a id="defaultfOpen" onclick="openForm(event, 'flight'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
-                                <img src="Assets/image/2.png" alt="">
-                                <p>FLIGHT</p>
-                            </a>
-                            <a id="defaultfOpen" onclick="openForm(event, 'hotel'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
-                                <img src="Assets/image/4.png" alt="">
-                                <p>HOTEL</p>
-                            </a>
-                            <a id="defaultfOpen" onclick="openForm(event, 'tour'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
-                                <img src="Assets/image/1.png" alt="">
-                                <p>TOUR</p>
-                            </a>
-                            <a id="defaultfOpen" onclick="openForm(event, 'car'); homeHide()" class="col-md-3 col-sm-6 package-option wow fadeInUp">
-                                <img src="Assets/image/3.png" alt="">
-                                <p>CAR RENTALS</p>
-                            </a>
-                            
-                        </div>
-                    </div>    
-                    
-                    <div class="col-md-5 col-sm-12 book-search-form wow fadeInUp" id="flight-form">
-                        <form class="row g-3">
-                            <div class="col-md-12">
-                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
-                            </div>
-
-                            <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Flying From</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                              </div>
-                              <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Flying To</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                              </div>
-    
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Arrival Date">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Departure Date">
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of adults</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of childrens</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Min Price</option>
-                                  <option>100$</option>
-                                  <option>150$</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Max Price</option>
-                                  <option>1000$</option>
-                                  <option>1500$</option>
-                                </select>
-                            </div>
-
-                            <div class="col-12">
-                              <button type="submit" class="btn search-btn">BOOK NOW</button>
-                            </div>
-                          </form>
-                    </div>
-                    <div class="col-md-5 col-sm-12 book-search-form wow fadeInUp" id="hotel-form">
-                        <form class="row g-3">
-                            <div class="col-md-12">
-                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
-                            </div>
-
-                            <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>City, Destination and Hotel Name</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                              </div>
-
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Check In">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Check Out">
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of Rooms</option>
-                                  <option>room 1</option>
-                                  <option>bari 2</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Rooms Type</option>
-                                  <option>Small</option>
-                                  <option>Big</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of adults</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of childrens</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Min Price</option>
-                                  <option>100$</option>
-                                  <option>150$</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Max Price</option>
-                                  <option>1000$</option>
-                                  <option>1500$</option>
-                                </select>
-                            </div>
-
-                            <div class="col-12">
-                              <button type="submit" class="btn search-btn">BOOK NOW</button>
-                            </div>
-                          </form>
-                    </div>
-                    <div class="col-md-5 col-sm-12 book-search-form wow fadeInUp" id="tour-form">
-                        <form class="row g-3">
-                            <div class="col-md-12">
-                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
-                            </div>
-
-                            <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Select City or Place</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                              </div>
-                            
-                              <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Select your package</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                              </div>
-                            
-                              <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Arrival Date">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Departure Date">
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of adults</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of childrens</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Min Price</option>
-                                  <option>100$</option>
-                                  <option>150$</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Max Price</option>
-                                  <option>1000$</option>
-                                  <option>1500$</option>
-                                </select>
-                            </div>
-
-                            <div class="col-12">
-                              <button type="submit" class="btn search-btn">BOOK NOW</button>
-                            </div>
-                          </form>
-                    </div>
-                    <div class="col-md-5 col-sm-12 book-search-form wow fadeInUp" id="car-form">
-                        <form class="row g-3">
-                            <div class="col-md-12">
-                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
-                            </div>
-
-                            <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Pick up location</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                            </div>
-                            
-                            <div class="col-md-12">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Dropping off location</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Pick up Date">
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Pick up time</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" id="inputEmail4" placeholder="Drop off Date">
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Drop off time</option>
-                                  <option>Bangladesh</option>
-                                  <option>India</option>
-                                  <option>Soudi</option>
-                                  <option>Qatar</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Select car type</option>
-                                  <option>small</option>
-                                  <option>big</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Total Pessengers</option>
-                                  <option>1</option>
-                                  <option>2</option>
-                                  <option>3</option>
-                                  <option>4</option>
-                                  <option>5</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of adults</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>No of childrens</option>
-                                  <option>yes</option>
-                                  <option>no</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Min Price</option>
-                                  <option>100$</option>
-                                  <option>150$</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <select id="inputState" class="form-select">
-                                  <option selected>Max Price</option>
-                                  <option>1000$</option>
-                                  <option>1500$</option>
-                                </select>
-                            </div>
-
-                            <div class="col-12">
-                              <button type="submit" class="btn search-btn">BOOK NOW</button>
-                            </div>
-                          </form>
-                    </div>
-    
                 </div>
             </div>
         </div>
@@ -512,7 +123,7 @@
                             <i class="fa-solid fa-circle-info"></i></br>
                             Information
                         </div>
-                        <div class="tablinks col-md" onclick="openCity(event, 'tour-plan')" id="defaultOpen">
+                        <div class="tablinks col-md" onclick="openCity(event, 'tour')" id="defaultOpen">
                             <i class="fa-solid fa-map"></i></br>
                             Tour Plan
                         </div>
@@ -535,7 +146,7 @@
                         <div class="col-md"></div>
                     </div>
                       
-                    <div id="info" class="tabcontent fadeInUp">
+                    <div id="info" class="tabcontent">
                         <div class="row">
                             <div href="" class="col-md-6">
                                 <a href="">
@@ -605,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="tour-plan" class="tabcontent">
+                    <div id="tour" class="tabcontent">
                         <div class="row">
                             <div class="tour-plan">
                                 <div class="content">
@@ -981,157 +592,6 @@
         </div>
     </section>
     <!-- Information Tabs Section End -->
-    <!-- Slider Section Start -->
-    <section>
-        <div class="swiper-container mySwiper">
-          <div class="swiper-wrapper">
-              <div class="swiper-slide img-slide-1">
-                <div class="overlay"></div>
-                <div class="text">
-                    <h1>Tropical</h1>
-                    <h3>Exotic Places</h3>
-                </div>
-              </div>
-              <div class="swiper-slide img-slide-2">
-                <div class="overlay"></div>
-                <div class="text">
-                    <h1>Stunning </h1>
-                    <h3>Far Places</h3>
-                </div>
-              </div>
-              <div class="swiper-slide img-slide-3">
-                <div class="overlay"></div>
-                <div class="text">
-                    <h1>Relaxing </h1>
-                    <h3>Holiday</h3>
-                </div>
-              </div>
-              <div class="swiper-slide img-slide-4">
-                <div class="overlay"></div>
-                <div class="text">
-                    <h1>Romantic </h1>
-                    <h3>Wine Tour</h3>
-                </div>
-              </div>
-              <div class="swiper-slide img-slide-5">
-                <div class="overlay"></div>
-                <div class="text">
-                    <h1>Relaxing </h1>
-                    <h3>Country Side</h3>
-                </div>
-              </div>
-              <div class="swiper-slide img-slide-6">
-                <div class="overlay"></div>
-                <div class="text">
-                    <h1>Active </h1>
-                    <h3>Hiking</h3>
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
-    <!-- Slider Section End -->
-
-    <!-- Domestic Section Start -->
-    <section>
-        <div id="domestic" class="container-fluid">
-            <div class="row domestic-section">
-                <div class="col-12">
-                    <h1>Bangladesh's Destinations</h1>
-                    <hr>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-1">
-                    <div class="overlay"></div>
-                    <p>Cox's Bazar</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-2">
-                    <div class="overlay"></div>
-                    <p>Sreemangal</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-3">
-                    <div class="overlay"></div>
-                    <p>Sylhet</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-4">
-                    <div class="overlay"></div>
-                    <p>Chittagong</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-5">
-                    <div class="overlay"></div>
-                    <p>Bandarban</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-6">
-                    <div class="overlay"></div>
-                    <p>Rangamati</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-7">
-                    <div class="overlay"></div>
-                    <p>Sajek</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic domestic-8">
-                    <div class="overlay"></div>
-                    <p>Dhaka</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Domestic Section End -->
-
-    <!-- Internatinal Section Start -->
-    <section>
-        <div id="internation" class="container-fluid">
-            <div class="row domestic-section">
-                <div class="col-12">
-                    <h1>Our Associate international properties</h1>
-                    <hr>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-1">
-                    <div class="overlay"></div>
-                    <p>Cygnett Inn Krishna Nepal</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-2">
-                    <div class="overlay"></div>
-                    <p>Ocean Edge Suites & Hotel Colombo, Srilanka</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-3">
-                    <div class="overlay"></div>
-                    <p>Grand Seasons Hotel, Malaysia</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-4">
-                    <div class="overlay"></div>
-                    <p>Ramada Encore Istanbul Kartal</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-5">
-                    <div class="overlay"></div>
-                    <p>Ghaya Grand Hotel, Dubai</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-6">
-                    <div class="overlay"></div>
-                    <p>Winchester, Dubai</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-7">
-                    <div class="overlay"></div>
-                    <p>Cosmo Hotel, Kuala Lumpur</p>
-                </div>
-                <div class="col-md-3 col-sm-1 domestic internation-8">
-                    <div class="overlay"></div>
-                    <p>Cosmo Hotel, Kuala Lumpur</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Internatinal Section End -->
-    
-    <!-- Footer Section Start -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <p style="text-align: center;">Copyright Tour De World | Design & Development <a href="">PR Design</a></p>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Section End -->
-    
 
     <!-- JQuery Js -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -1144,39 +604,6 @@
     <script>
         new WOW().init();
     </script>
-
-    <!-- Swiper Js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js" integrity="sha512-s/ili339Sh6gM9omfUC6fRwZPU6MPcGJxvDqlbBzPcFcD649iqeO96YQr3VKj/jZSMd2/T9Qr2mp2w4DyCIOPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-     var swiperOptions = {
-       loop: true,
-       speed: 500,
-       spaceBetween: 0,
-       mousewheel: true,
-       breakpoints: {
-          640: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          1024: {
-            slidesPerView: 4,
-          },
-        },
-   
-       };  
-   
-       var swiper = new Swiper(".swiper-container", swiperOptions);
-   
-       document.querySelector('.scrollable-content').addEventListener('mousewheel', function(e){
-       e.stopPropagation();
-       });
-   
-     });
-   
-     </script>
 
     <!-- Lightbox Js -->
     <script src="Assets/js/lightbox.min.js"></script>

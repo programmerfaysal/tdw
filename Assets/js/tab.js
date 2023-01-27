@@ -39,4 +39,13 @@ function openCity(evt, cityName) {
   }
   
   // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultfOpen").click();
+  //document.getElementById("defaultfOpen").click();
+
+
+  function homeHide() {
+    document.getElementById("home-s").style.display = "none";
+    document.getElementById("book-s").style.display = "block";
+  }
+
+
+
