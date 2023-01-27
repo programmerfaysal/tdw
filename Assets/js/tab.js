@@ -14,3 +14,29 @@ function openCity(evt, cityName) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+
+  
+  function openForm(evt, cityName) {
+    var i, bookOption, bookTextOption, packageOption;
+    bookOption = document.getElementsByClassName("b-tab");
+    for (i = 0; i < bookOption.length; i++) {
+      bookOption[i].style.display = "none";
+    }
+    bookTextOption = document.getElementsByClassName("book-search-form");
+    for (i = 0; i < bookTextOption.length; i++) {
+      bookTextOption[i].style.display = "none";
+    }
+    packageOption = document.getElementsByClassName("package-option");
+    for (i = 0; i < packageOption.length; i++) {
+      packageOption[i].className = packageOption[i].className.replace(" package-active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    document.getElementById(cityName+"-form").style.display = "block";
+
+    evt.currentTarget.className += " package-active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultfOpen").click();

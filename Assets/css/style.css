@@ -83,6 +83,11 @@ a{
     background: linear-gradient(to bottom,#f4364f,#dc2039);
     border: 1px solid #d41e36;
 }
+.package-active {
+    background: #f4364f;
+    background: linear-gradient(to bottom,#f4364f,#dc2039);
+    border: 1px solid #d41e36;
+}
 .package-option .form-control {
     font-size: 18px !important;
     height: 50px !important;
@@ -398,7 +403,7 @@ a{
 .book-search .book-option .hom-pack p {
     font-size: 12px;
 }
-.book-search-fotm {
+.book-search-form {
     padding: 50px;
     background: #fff;
     box-shadow: 0px 0px 15px -10px #000;

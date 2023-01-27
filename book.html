@@ -69,25 +69,42 @@
     <section>
         <div class="book-search">
             <div class="container">
-                <div class="row book-option">
+                <div class="row book-option" >
                     <div class="col-md-7 col-sm-12">
-                        <h4>WORLD'S LEADING TOUR AND TRAVELS TEMPLATE</h4>
-                        <h1>Hotel booking now!</h1>
-                        <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+                        <div class="b-tab" id="flight">
+                            <h4>WORLD'S LEADING TOUR AND TRAVELS TEMPLATE</h4>
+                            <h1>Hotel booking now!</h1>
+                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+                        </div>
+                        <div class="b-tab" id="hotel">
+                            <h4>Hotel</h4>
+                            <h1>Hotel booking now!</h1>
+                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+                        </div>
+                        <div class="b-tab" id="tour">
+                            <h4>Tour</h4>
+                            <h1>Tour booking now!</h1>
+                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+                        </div>
+                        <div class="b-tab" id="car">
+                            <h4>Car</h4>
+                            <h1>Car booking now!</h1>
+                            <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+                        </div>
                         <div class="row hom-pack ">
-                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a id="defaultfOpen" onclick="openForm(event, 'flight')" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/2.png" alt="">
                                 <p>FLIGHT</p>
                             </a>
-                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a id="defaultfOpen" onclick="openForm(event, 'hotel')" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/4.png" alt="">
                                 <p>HOTEL</p>
                             </a>
-                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a id="defaultfOpen" onclick="openForm(event, 'tour')" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/1.png" alt="">
                                 <p>TOUR</p>
                             </a>
-                            <a href="book.html" class="col-md-3 col-sm-6 package-option wow fadeInUp">
+                            <a id="defaultfOpen" onclick="openForm(event, 'car')" class="col-md-3 col-sm-6 package-option wow fadeInUp">
                                 <img src="Assets/image/3.png" alt="">
                                 <p>CAR RENTALS</p>
                             </a>
@@ -95,7 +112,7 @@
                         </div>
                     </div>    
                     
-                    <div class="col-md-5 col-sm-12 book-search-fotm">
+                    <div class="col-md-5 col-sm-12 book-search-form" id="flight-form">
                         <form class="row g-3">
                             <div class="col-md-12">
                               <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
@@ -174,6 +191,177 @@
                             </div>
                           </form>
                     </div>
+                    <div class="col-md-5 col-sm-12 book-search-form" id="hotel-form">
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
+                            </div>
+
+                            <div class="col-md-12">
+                              <select id="inputState" class="form-select">
+                                <option selected>City, Destination and Hotel Name</option>
+                                <option>Bangladesh</option>
+                                <option>India</option>
+                                <option>Soudi</option>
+                                <option>Qatar</option>
+                              </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>No of Rooms</option>
+                                  <option>room 1</option>
+                                  <option>bari 2</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>Rooms Type</option>
+                                  <option>Small</option>
+                                  <option>Big</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>No of adults</option>
+                                  <option>yes</option>
+                                  <option>no</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                              <button type="submit" class="btn search-btn">BOOK NOW</button>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="col-md-5 col-sm-12 book-search-form" id="tour-form">
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
+                            </div>
+
+                            <div class="col-md-12">
+                              <select id="inputState" class="form-select">
+                                <option selected>City, Destination and Hotel Name</option>
+                                <option>Bangladesh</option>
+                                <option>India</option>
+                                <option>Soudi</option>
+                                <option>Qatar</option>
+                              </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>No of Rooms</option>
+                                  <option>room 1</option>
+                                  <option>bari 2</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>Rooms Type</option>
+                                  <option>Small</option>
+                                  <option>Big</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>No of adults</option>
+                                  <option>yes</option>
+                                  <option>no</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                              <button type="submit" class="btn search-btn">BOOK NOW</button>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="col-md-5 col-sm-12 book-search-form" id="car-form">
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your Email">
+                            </div>
+
+                            <div class="col-md-12">
+                              <select id="inputState" class="form-select">
+                                <option selected>City, Destination and Hotel Name</option>
+                                <option>Bangladesh</option>
+                                <option>India</option>
+                                <option>Soudi</option>
+                                <option>Qatar</option>
+                              </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Enter your Phone">
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>No of Rooms</option>
+                                  <option>room 1</option>
+                                  <option>bari 2</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>Rooms Type</option>
+                                  <option>Small</option>
+                                  <option>Big</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <select id="inputState" class="form-select">
+                                  <option selected>No of adults</option>
+                                  <option>yes</option>
+                                  <option>no</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                              <button type="submit" class="btn search-btn">BOOK NOW</button>
+                            </div>
+                          </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -190,7 +378,7 @@
                             <i class="fa-solid fa-circle-info"></i></br>
                             Information
                         </div>
-                        <div class="tablinks col-md" onclick="openCity(event, 'tour')" id="defaultOpen">
+                        <div class="tablinks col-md" onclick="openCity(event, 'tour-plan')" id="defaultOpen">
                             <i class="fa-solid fa-map"></i></br>
                             Tour Plan
                         </div>
@@ -283,7 +471,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="tour" class="tabcontent">
+                    <div id="tour-plan" class="tabcontent">
                         <div class="row">
                             <div class="tour-plan">
                                 <div class="content">
