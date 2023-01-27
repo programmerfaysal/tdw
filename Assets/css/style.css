@@ -409,7 +409,43 @@ a{
     box-shadow: 0px 0px 15px -10px #000;
     border-radius: 5px;
 }
-
+.book-search-form .form-control:focus {box-shadow: none !important;}
+.book-search-form .form-select:focus {box-shadow: none !important;}
+.book-search-form .form-control {
+    font-family: system-ui;
+    color: #808285;
+    font-size: 13px;
+    font-weight: 500;
+    background: #fff;
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+.book-search-form .form-select {
+    font-family: system-ui;
+    color: #808285;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+.book-search-form .form-select option{
+    font-family: system-ui;
+    color: #808285;
+    font-size: 13px;
+    font-weight: 500;
+    background: #fff;
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+.book-search-form .input-group-text{
+    font-family: system-ui;
+    color: #808285;
+    font-size: 12px;
+    font-weight: 500;
+    background: #fff;
+    border: 0;
+    padding: 18px;
+}
 
 
 
