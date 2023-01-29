@@ -21,6 +21,7 @@
   
 a{
     text-decoration: none;
+    color: #000;
 }
 
 /******home Search Css Start ******/
@@ -533,6 +534,7 @@ a{
 }
 .domestic-section h1 {
     text-align: center;
+    width: 100%;
     font-size: 30px;
     color: #383838;
 }
@@ -543,103 +545,6 @@ a{
     height: 2px;
     background: #e42740;
     color: #e42740;
-}
-.domestic {
-    height: 300px;
-    position: relative;
-    text-align: center;
-    box-sizing: border-box;
-    border: 10px solid #fff;
-    transition: all .3s;
-}
-.domestic .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: #00000085;
-    margin: 0;
-    left: 0;
-}
-.domestic:hover {
-    box-shadow: 0px 0px 25px -5px #000;
-    z-index: 9;
-    scale: 1.1;
-}
-.domestic p {
-    font-size: 30px;
-    color: #fff;
-    position: absolute;
-    bottom: 40%;
-    margin: 0 auto;
-    width: 100%;
-    left: 0;
-}
-.domestic-1{
-    background-image: url(../image/d-1.jpg);
-    background-size: cover;
-}
-.domestic-2{
-    background-image: url(../image/d-2.jpg);
-    background-size: cover;
-}
-.domestic-3{
-    background-image: url(../image/d-3.jpg);
-    background-size: cover;
-}
-.domestic-4{
-    background-image: url(../image/d-4.jpg);
-    background-size: cover;
-}
-.domestic-5{
-    background-image: url(../image/d-5.jpg);
-    background-size: cover;
-}
-.domestic-6{
-    background-image: url(../image/d-6.jpg);
-    background-size: cover;
-}
-.domestic-7{
-    background-image: url(../image/d-7.jpg);
-    background-size: cover;
-}
-.domestic-8{
-    background-image: url(../image/d-8.jpg);
-    background-size: cover;
-}
-
-
-/* International style*/
-.internation-1{
-    background-image: url(../image/i-1.webp);
-    background-size: cover;
-}
-.internation-2{
-    background-image: url(../image/i-2.jpg);
-    background-size: cover;
-}
-.internation-3{
-    background-image: url(../image/i-3.jpg);
-    background-size: cover;
-}
-.internation-4{
-    background-image: url(../image/i-4.jpg);
-    background-size: cover;
-}
-.internation-5{
-    background-image: url(../image/i-5.jpg);
-    background-size: cover;
-}
-.internation-6{
-    background-image: url(../image/i-6.jpg);
-    background-size: cover;
-}
-.internation-7{
-    background-image: url(../image/i-7.jpg);
-    background-size: cover;
-}
-.internation-8{
-    background-image: url(../image/i-8.jpg);
-    background-size: cover;
 }
 
 
